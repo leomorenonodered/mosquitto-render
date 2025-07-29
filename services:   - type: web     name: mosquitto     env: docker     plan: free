@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: mosquitto
+    env: docker
+    plan: free
