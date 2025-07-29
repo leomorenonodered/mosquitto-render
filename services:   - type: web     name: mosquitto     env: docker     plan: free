@@ -1,5 +1,7 @@
 services:
-  - type: web
+  - type: pserv
     name: mosquitto
     env: docker
     plan: free
+    ports:
+      - port: 1883
